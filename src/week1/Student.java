@@ -10,6 +10,7 @@ package week1;
  */
 public class Student {
     private String name;
+    private int age;
     
     public String getName(){
         return name;
@@ -19,4 +20,11 @@ public class Student {
         name=given_name;
     }
     
+    private int getAge(){
+        return age;
+    }
+    
+    private void setAge(int age1){
+        age=age1;
+    }
 }

@@ -15,7 +15,7 @@ public class Week1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Student[] studentList =  new Student[1];
+        Student[] studentList =  new Student[3];
         studentList[0] = new Student();
         studentList[0].setName("Jibran");
         
